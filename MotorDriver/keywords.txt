@@ -1,0 +1,42 @@
+#######################################
+# Syntax Coloring Map MOTOR_SHIELD
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MotorDriver	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+init	KEYWORD2
+configure	KEYWORD2
+setSpeed	KEYWORD2
+setDirection	KEYWORD2
+rotate	KEYWORD2
+rotateWithID	KEYWORD2
+goForward	KEYWORD2
+goBackward	KEYWORD2 
+goLeft	KEYWORD2 
+goRight	KEYWORD2 
+stop	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+MOTORSHIELD_IN1	LITERAL1
+MOTORSHIELD_IN2	LITERAL1
+MOTORSHIELD_IN3	LITERAL1
+MOTORSHIELD_IN4	LITERAL1
+SPEEDPIN_A	LITERAL1
+SPEEDPIN_B	LITERAL1
+MOTORA	LITERAL1
+MOTORB	LITERAL1
+MOTOR_POSITION_LEFT	LITERAL1
+MOTOR_POSITION_RIGHT	LITERAL1
+MOTOR_CLOCKWISE	LITERAL1
+MOTOR_ANTICLOCKWISE	LITERAL1
+CTRLPIN_A	LITERAL1
+CTRLPIN_B	LITERAL1
