@@ -7,7 +7,7 @@
 #define RxD 2
 #define TxD 4
 CarBluetooth bluetooth(RxD, TxD);
-#define CTRL_INVALID     0XFF
+#define CMD_INVALID     0XFF
 #define CMD_FORWARD     'F'
 #define CMD_RIGHT_FRONT 'R'
 
@@ -36,7 +36,7 @@ uint8_t new_status = car_status;
 
 void loop(){
   bt_command = bluetooth.readByte();
-  if(bt_command != CTRL_INVALID){
+  if(bt_command != CMD_INVALID){
   controlCar(bt_command);
   }
   if(bluetooth.getStatus() == PAIRABLE) {
